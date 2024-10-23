@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+ <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  
+  <main>
+    <header>
+      <h1>SPLI <br> TTER</h1>
+    </header>
+    <section class="cuadro">
+     <section class="cuadro-porsentaje">
+       <label for="fname">Bill</label><br>
+       <input class="bill-input" id="bill" type="number" id="fname" name="fname" value="100">
+  
+     <section class="botones">
+      <p>Select Tip %</p>
+      <div class="botonera">
+         <button class="boton boton-seleccionado">5%</button>
+         <button class="boton">10%</button>
+         <button class="boton">15%</button>
+         <button class="boton">25%</button>
+         <button class="boton">50%</button>
+         <input class="boton-custome" type="number" placeholder="Custom">
+      </div> 
+
+     </section>
+      
+      
+
+     <label for="fname">Number of People</label><span id="alerta"></span><br>
+     <input id="input-personas" class="input-personas" type="number" id="fname" name="fname" min="1"  value="5">
+     
+    </section>
+
+      <section class="cuadro-totales">
+        <div class="cuadro-totales_total">
+
+          <div  class="cuadro-totales_total-resultado">
+            <div>
+              <p class="cuadro-totales_titulo">Tip Amount</p> 
+              <p class="cuadro-totales_subtitulo">/ person </p>
+            </div>
+  
+            <p class="cuadro-totales_total-resultado-p">0</p>
+
+          </div>
+          
+
+          <div  class="cuadro-totales_total-resultado">
+            <div>
+              <p class="cuadro-totales_titulo">Total</p> 
+              <p class="cuadro-totales_subtitulo">/ person</p>
+            </div>
+           
+            <p class="cuadro-totales_total-resultado2-p">0</p>
+
+            </div>
+
+         
+
+        </div>
+
+        <button class="boton-reset">RESET</button>
+
+      </section>
+      
+        
+     
+    
+    </section>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </main>
+
+  <script src="./js/scripts.js"></script>
+
+  
+</body>
+</html>
